@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated data and training output
+datasets/
+data_collection/
+outputs/
+checkpoints/
+wandb/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+
+# Generated media and logs
+*.log
+*.gif
+*.mp4
+*.avi
+preview_frames/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Keep all shared USD/USDZ assets tracked. No asset pattern belongs here.

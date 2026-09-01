@@ -1,0 +1,5 @@
+* text=auto eol=lf
+
+# USD crates and USDZ archives are binary assets.
+*.usd -text -diff
+*.usdz -text -diff
